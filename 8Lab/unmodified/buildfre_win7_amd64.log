@@ -1,0 +1,71 @@
+BUILD: Computing Include file dependencies:
+BUILD: Examining c:\radasm\wdk\projects\8lab\unmodified directory for files to compile.
+1>Compiling and Linking c:\radasm\wdk\projects\8lab\unmodified *************
+1>'nmake.exe /nologo BUILDMSG=Stop. -i /nologo /f c:\winddk\bin\makefile.def BUILD_PASS=PASS2 LINKONLY=1 NOPASS0=1 MAKEDIR_RELATIVE_TO_BASEDIR='
+1>c:\radasm\wdk\projects\8lab\unmodified: TARGETPATH is EXE
+1> link.exe /out:EXE\amd64\8lab.exe /machine:amd64 @c:\radasm\wdk\projects\8lab\unmodified\objfre_win7_amd64\amd64\lnk.rsp
+1>Microsoft (R) Incremental Linker Version 9.00.30729.207
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/MERGE:_PAGE=PAGE 
+1>/MERGE:_TEXT=.text 
+1>/SECTION:INIT,d 
+1>/OPT:REF 
+1>/OPT:ICF 
+1>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221,4108,4088,4218,4218,4235 
+1>/INCREMENTAL:NO 
+1>/release 
+1>/NODEFAULTLIB 
+1>/WX 
+1>/debug 
+1>/debugtype:cv,fixup,pdata 
+1>/version:6.1 
+1>/osversion:6.1 
+1>C:\WinDDK\lib\win7\amd64\hotpatch.obj 
+1>/functionpadmin:6 
+1>/merge:.rdata=.text 
+1>/pdbcompress 
+1>/STACK:0x80000,0x2000 
+1>/tsaware 
+1>/dynamicbase 
+1>/subsystem:console,6.01 
+1>/base:@C:\WinDDK\bin\coffbase.txt,usermode64 
+1>/entry:mainCRTStartup 
+1>c:\radasm\wdk\projects\8lab\unmodified\objfre_win7_amd64\amd64\8lab.res 
+1>c:\radasm\wdk\projects\8lab\unmodified\objfre_win7_amd64\amd64\8lab.obj 
+1>C:\WinDDK\lib\win7\amd64\advapi32.lib 
+1>C:\WinDDK\lib\win7\amd64\kernel32.lib 
+1>C:\WinDDK\lib\crt\amd64\msvcrt.lib 
+1>8lab.obj : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+1>Microsoft (R) Incremental Linker Version 9.00.30729.207
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/MERGE:_PAGE=PAGE 
+1>/MERGE:_TEXT=.text 
+1>/SECTION:INIT,d 
+1>/OPT:REF 
+1>/OPT:ICF 
+1>/IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221,4108,4088,4218,4218,4235 
+1>/INCREMENTAL:NO 
+1>/release 
+1>/NODEFAULTLIB 
+1>/WX 
+1>/debug 
+1>/debugtype:cv,fixup,pdata 
+1>/version:6.1 
+1>/osversion:6.1 
+1>C:\WinDDK\lib\win7\amd64\hotpatch.obj 
+1>/functionpadmin:6 
+1>/merge:.rdata=.text 
+1>/pdbcompress 
+1>/STACK:0x80000,0x2000 
+1>/tsaware 
+1>/dynamicbase 
+1>/subsystem:console,6.01 
+1>/base:@C:\WinDDK\bin\coffbase.txt,usermode64 
+1>/entry:mainCRTStartup 
+1>c:\radasm\wdk\projects\8lab\unmodified\objfre_win7_amd64\amd64\8lab.res 
+1>c:\radasm\wdk\projects\8lab\unmodified\objfre_win7_amd64\amd64\8lab.obj 
+1>C:\WinDDK\lib\win7\amd64\advapi32.lib 
+1>C:\WinDDK\lib\win7\amd64\kernel32.lib 
+1>C:\WinDDK\lib\crt\amd64\msvcrt.lib 
+1>Generating code
+1>Finished generating code

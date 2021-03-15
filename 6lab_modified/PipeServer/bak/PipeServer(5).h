@@ -1,0 +1,2 @@
+/*  PROTOTYPES */
+VOID InstanceThread();

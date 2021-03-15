@@ -1,0 +1,14 @@
+#define IDM_MENU 1000
+#define IDM_FILE_EXIT 1001
+#define IDM_HELP_ABOUT 1002
+IDM_MENU MENUEX
+BEGIN
+  POPUP "&Файл"
+  BEGIN
+    MENUITEM "&Вихід",IDM_FILE_EXIT
+  END
+  POPUP "&Допомога"
+  BEGIN
+    MENUITEM "&Про програму",IDM_HELP_ABOUT
+  END
+END

@@ -1,0 +1,9 @@
+1>warnings in directory c:\radasm\wdk\projects\6lab\pipeserver
+1>c:\radasm\wdk\projects\6lab\pipeserver\pipeserver.c(29) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'LPTHREAD_START_ROUTINE'
+1>c:\radasm\wdk\projects\6lab\pipeserver\pipeserver.c(29) : warning C4133: 'function' : incompatible types - from 'void (__cdecl *)()' to 'LPTHREAD_START_ROUTINE'
+1>c:\radasm\wdk\projects\6lab\pipeserver\pipeserver.c(33) : warning C4047: 'function' : 'LPDWORD' differs in levels of indirection from 'DWORD'
+1>c:\radasm\wdk\projects\6lab\pipeserver\pipeserver.c(33) : warning C4024: 'CreateThread' : different types for formal and actual parameter 6
+1>c:\radasm\wdk\projects\6lab\pipeserver\pipeserver.c(46) : warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'LPTHREAD_START_ROUTINE'
+1>c:\radasm\wdk\projects\6lab\pipeserver\pipeserver.c(46) : warning C4133: 'function' : incompatible types - from 'void (__cdecl *)()' to 'LPTHREAD_START_ROUTINE'
+1>c:\radasm\wdk\projects\6lab\pipeserver\pipeserver.c(50) : warning C4047: 'function' : 'LPDWORD' differs in levels of indirection from 'DWORD'
+1>c:\radasm\wdk\projects\6lab\pipeserver\pipeserver.c(50) : warning C4024: 'CreateThread' : different types for formal and actual parameter 6

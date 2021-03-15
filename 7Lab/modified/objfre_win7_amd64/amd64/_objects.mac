@@ -1,0 +1,17 @@
+
+
+AMD64_OBJECTS=\
+ $(OBJ_PATH)\$O\7lab.obj \
+
+
+_RES_FILE=$(OBJ_PATH)\$O\7lab.res
+
+
+
+# lowercased
+BASEDIR=c:\winddk
+OBJECT_ROOT=c:\winddk
+MAKEDIR_LOWERCASE=c:\radasm\wdk\projects\7lab\modified
+OBJ_PATH=c:\radasm\wdk\projects\7lab\modified
+CONCURRENT_MIDL=0
+CONCURRENT_MANIFEST_BUILD=0

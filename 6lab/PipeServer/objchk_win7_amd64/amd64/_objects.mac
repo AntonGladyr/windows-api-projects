@@ -1,0 +1,17 @@
+
+
+AMD64_OBJECTS=\
+ $(OBJ_PATH)\$O\pipeserver.obj \
+
+
+_RES_FILE=$(OBJ_PATH)\$O\pipeserver.res
+
+
+
+# lowercased
+BASEDIR=c:\winddk
+OBJECT_ROOT=c:\winddk
+MAKEDIR_LOWERCASE=c:\radasm\wdk\projects\6lab\pipeserver
+OBJ_PATH=c:\radasm\wdk\projects\6lab\pipeserver
+CONCURRENT_MIDL=0
+CONCURRENT_MANIFEST_BUILD=0
